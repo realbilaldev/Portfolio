@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Dev<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">M Bilal Jutt</span></h1>
+            <p>Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Stack</h2>
+        <div class="skill-container">
+            <div class="skill-card"><i class="fab fa-html5"></i> <p>HTML5</p></div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i> <p>CSS3</p></div>
+            <div class="skill-card"><i class="fab fa-js"></i> <p>JavaScript</p></div>
+            <div class="skill-card"><i class="fab fa-react"></i> <p>React.js</p></div>
+            <div class="skill-card"><i class="fab fa-node-js"></i> <p>Node.js</p></div>
+            <div class="skill-card"><i class="fas fa-database"></i> <p>MongoDB</p></div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p>A full-stack MERN application with payment integration.</p>
+                <div class="tags"><span>React</span> <span>Node</span> <span>Stripe</span></div>
+            </div>
+            <div class="project-card">
+                <h3>Task Management AI</h3>
+                <p>Using GPT APIs to organize daily developer workflows.</p>
+                <div class="tags"><span>Python</span> <span>React</span> <span>OpenAI</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Designed with code & coffee.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
